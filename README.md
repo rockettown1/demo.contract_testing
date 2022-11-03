@@ -26,7 +26,7 @@ And all that happens is the React demo app calls apiA which calls ApiB.
 
 ### Integration points
 
-React app (consumer) - apiA (provider)
+React app (consumer) - apiA (provider)  
 apiA (consumer) - apiB (provider)
 
 ### Todo
