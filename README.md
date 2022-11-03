@@ -22,7 +22,7 @@ services
 Run all three services in parallel using:
 `npm run start:all`
 
-And all that happens is the React demo app calls apiA which calls ApiB.
+And all that happens is the React demo app calls apiA which calls apiB.
 
 ### Integration points
 
