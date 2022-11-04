@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+#people_container {
+  display: flex;
+}
+#people_container p {
+  margin: 0 20px;
+}
+

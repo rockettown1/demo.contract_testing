@@ -14,6 +14,12 @@ server.get("/health", async (_, reply) => {
   reply.status(200).send({ message: `Hello ${result.message}` });
 });
 
+server.get("/people", async (_, reply) => {
+  const result = await externalServiceExample.get("http://localhost:5001/people");
+  console.log(result);
+  reply.status(200).send(result);
+});
+
 server.listen({ port }, (err, address) => {
   if (err) {
     server.log.error(err);
