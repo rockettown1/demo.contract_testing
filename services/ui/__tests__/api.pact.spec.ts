@@ -7,7 +7,7 @@ const provider = new PactV3({
   consumer: "ui",
   provider: "apiA",
   logLevel: "warn",
-  dir: path.resolve(process.cwd(), "pacts"),
+  dir: path.resolve(process.cwd(), "../pacts"),
   spec: SpecificationVersion.SPECIFICATION_VERSION_V2,
 });
 
