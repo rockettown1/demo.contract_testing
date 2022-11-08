@@ -31,5 +31,5 @@ apiA (consumer) - apiB (provider)
 
 ### Todo
 
-- [x] Add Pact contracts for ui and apiA
-- [ ] Add Pact contracts for apiA and apiB
+- [x] Add Pact contract for ui and apiA
+- [ ] Add Pact contract for apiA and apiB
