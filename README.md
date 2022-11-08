@@ -31,5 +31,5 @@ apiA (consumer) - apiB (provider)
 
 ### Todo
 
-- [ ] Add Pact contracts
-- [ ] Implement contract testing between consumers and providers
+- [x] Add Pact contracts for ui and apiA
+- [ ] Add Pact contracts for apiA and apiB
