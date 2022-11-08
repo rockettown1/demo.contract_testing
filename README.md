@@ -31,5 +31,6 @@ apiA (consumer) - apiB (provider)
 
 ### Todo
 
-- [x] Add Pact contract for ui and apiA
+- [ ] Create mock server for apiA to test in isolation
+- [ ] Add Pact contract for ui and apiA
 - [ ] Add Pact contract for apiA and apiB
